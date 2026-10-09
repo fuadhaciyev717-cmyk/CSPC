@@ -23,6 +23,11 @@ Create the environment for a given lab:
 
 ### Conclusion
 Using matrix/array libraries like NumPy removes the heavy processing bottlenecks of standard Python loops. This makes physics and chemistry simulations execute thousands of times faster when modeling large quantities of atoms.
+## PW1 — Lab B: Data, Plotting, and Automation
+
+### Results
+* **Observed Data vs. Analytical Law:** The observed radioactive decay data points match the smooth curve of the analytical law $N_0e^{-\lambda t}$ perfectly on the shared scale, confirming the physical exponential decay profile.
+* **Snakemake Pipeline Functionality:** The automated Snakemake pipeline uses timestamp tracking rules to compile data and refresh figures dynamically only when the underlying source code or data arrays change.
 
 ## PW2 — Lab A: Motion from Tracking Data
 
